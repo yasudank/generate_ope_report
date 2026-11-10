@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+# generated outputs
+obsplan_*.pdf
+altitude_vs_time_*.png
+rotator_angle_vs_time_*.png

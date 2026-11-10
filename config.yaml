@@ -1,0 +1,22 @@
+# Configuration file for PFS OPE Report Generator
+
+# Telescope Location Settings
+location:
+  name: "Subaru"               # Telescope site name for EarthLocation lookup
+  timezone: "US/Hawaii"        # Local timezone name
+  hst_offset_hours: -10        # Time offset from UTC to local HST time (hours)
+
+# Twilight Settings
+twilight:
+  horizon_deg: -18.0           # Horizon altitude in degrees defining astronomical twilight
+
+# Observational constraints (used for warning highlights in report)
+constraints:
+  max_airmass: 1.6             # Maximum airmass threshold for warning
+  min_altitude: 32.5           # Minimum altitude limit in degrees
+  max_altitude: 75.0           # Maximum altitude limit in degrees (avoidance zone near zenith)
+  min_teff: 0.65               # Minimum effective exposure time factor (t_eff) threshold
+  rotator_min: -174.0          # Minimum instrument rotator limit in degrees
+  rotator_max: 174.0           # Maximum instrument rotator limit in degrees
+  min_moon_sep: 20.0           # Minimum angular separation from the Moon in degrees
+

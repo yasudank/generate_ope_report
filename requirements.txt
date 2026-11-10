@@ -1,0 +1,8 @@
+# Requirements for PFS OPE Report Generator
+numpy>=1.24.0
+astropy>=5.0.0
+astroplan>=0.10.0
+matplotlib>=3.7.0
+reportlab>=4.0.0
+pyyaml>=6.0
+
